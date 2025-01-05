@@ -3,3 +3,21 @@
 *{
     font-family: "Work Sans", serif; 
 }
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    gap: 10px;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+}
