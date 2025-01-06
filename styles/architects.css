@@ -148,6 +148,12 @@ margin-left:70px;
     #btn{
         margin-left: 90px;
     }
+    #res-title{
+        margin-left: 20px;
+    }
+    .features{
+        margin-left: 70px;
+    }
 }
 
 /* Tablet or Medium Device Responsive  */
