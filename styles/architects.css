@@ -174,7 +174,7 @@ margin-left:70px;
 
 @media screen and (min-width:576px) and (max-width:960px) {
     header{
-        padding: 20px;
+        padding: 0px;
     } 
     nav{
         flex-direction: column;
