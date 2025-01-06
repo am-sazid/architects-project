@@ -73,13 +73,11 @@ nav li a {
 /* Main Section Style */
 main{
     max-width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
     background: #F8FAFC;
 }
 .teams-container{
-    margin-top: 2rem;
     display: flex;
-    /* justify-content:center; */
     align-items: center;
     box-shadow:20px 20px rgba(0, 0, 0, 0.06);
 
@@ -156,11 +154,27 @@ margin-left:70px;
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tablet or Medium Device Responsive  */
 
 @media screen and (min-width:576px) and (max-width:960px) {
     header{
-        padding: 50px;
+        padding: 20px;
     } 
     nav{
         flex-direction: column;
