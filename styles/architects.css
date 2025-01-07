@@ -372,7 +372,7 @@ margin-left:70px;
         border-radius: 8px;
         background: #dd6565;
         box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.06);
-        width: 380px;
+        width: 370px;
         height: 120px;
         padding: 10px;
         margin-bottom: 15px;
@@ -391,6 +391,8 @@ margin-left:70px;
         color: #727272;
         font-weight: 400px;
         text-align: center;
+        width: 370px;
+        margin-left: 10px;
     }
 }
 
