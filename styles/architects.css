@@ -255,7 +255,7 @@ margin-left:70px;
 /* Footer Section */
 .footer{
     margin-bottom: 15px;
-    box-shadow: 10px 10px rgb(192, 191, 191) ;
+    box-shadow: 10px 10px rgb(231, 225, 225) ;
     background: rgb(238, 212, 212);
     height: 40px;
     text-align: center;
@@ -280,8 +280,12 @@ margin-left:70px;
     nav{
         flex-direction: column;
     }
+    .btn-primary{
+        margin-bottom: 5px;
+    }
     .teams-container{
         flex-direction: column;
+        box-shadow: 10px 10px  #727272;
     }
     .teams-img-container>img{
         width: 150px;
@@ -292,6 +296,9 @@ margin-left:70px;
         }
     #btn{
         margin-left: 100px;
+    }
+    .teams-des{
+        text-align: center;
     }
     #res-title{
         margin-left: 30px;
@@ -341,6 +348,7 @@ margin-left:70px;
     }
     .feature-img > img{
         width:101%;
+        border-top: 10px solid #FF900E;
         /* height: 400px; */
     }
     .badge{
@@ -348,7 +356,7 @@ margin-left:70px;
         background: #FF900E;
         color: #FFF;
         width: 100px;
-        height: 30px;
+        height: 40px;
         text-align: center;
         padding: 10px;
         position: relative;
@@ -372,7 +380,7 @@ margin-left:70px;
         border-radius: 8px;
         background: #dd6565;
         box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.06);
-        width: 370px;
+        width: 365px;
         height: 120px;
         padding: 10px;
         margin-bottom: 15px;
@@ -391,8 +399,15 @@ margin-left:70px;
         color: #727272;
         font-weight: 400px;
         text-align: center;
-        width: 370px;
+        width: 360px;
         margin-left: 10px;
+    }
+    .feature{
+        margin-top: 40px;
+        display: flex;
+        gap: 5px;
+        margin-left: -70px;
+        
     }
 }
 
