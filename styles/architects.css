@@ -129,7 +129,7 @@ margin-left:70px;
 
 .fact-title{
     color:#131313;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 0px;
 }
@@ -162,6 +162,40 @@ margin-left:70px;
     color: #424242;
     font-size: 15px;
     font-weight: 600;
+}
+
+/* Sponsors section style */
+
+.sponsors-container{
+    max-width: 900px;
+}
+
+.sponsors-title{
+    color:#131313;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.sponsors-des{
+    max-width: 402px;
+    color: #727272;
+    font-size: 12px;
+    font-weight: 400px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.sponsors-img-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 80px;
+    margin-top: 40px;
+
+}
+.sponsors-img{
+    width: 90px;
+    height: 30px;
 }
 
 
@@ -221,7 +255,20 @@ margin-left:70px;
         margin-left: 80px;
     }
     .card{
-        margin-left: 20px;   
+        margin-left: 18px;
+    }
+    .sponsors-des{
+        margin-left: 15px;
+    }
+    .sponsors-img-container{
+        /* max-width: 300px; */
+        grid-template-columns: repeat(5,1fr);
+        column-gap: 20px;
+        margin-left: 5px;
+    }
+    .sponsors-img{
+        width: 50px;
+        height: 25px;
     }
 }
 
